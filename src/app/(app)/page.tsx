@@ -82,7 +82,7 @@ export default function Home() {
       >
         <Button
           onClick={() => setIsChatOpen(!isChatOpen)}
-          className="w-14 h-14 rounded-full bg-white text-black hover:bg-gray-100 shadow-lg hover:shadow-xl transition-all"
+          className="cursor-pointer w-14 h-14 rounded-full bg-white text-black hover:bg-gray-100 shadow-lg hover:shadow-xl transition-all"
         >
           <MessageCircle className="w-6 h-6" />
         </Button>
